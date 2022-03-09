@@ -1,0 +1,239 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body { 
+  font-family: 'Open Sans', sans-serif;
+  color: #666;
+}
+
+/* STRUCTURE */
+
+#pagewrap {
+	padding: 5px;
+	width: 960px;
+	margin: 20px auto;
+}
+header {
+	height: 30px;
+	padding: 0 15px;
+}
+
+header nav {
+ float: right;
+ margin-top: -10px;
+ color: black;
+}
+
+header nav li {
+ display: inline;
+ margin-left: 15px;
+ color: black;
+}
+
+#tittle {
+	width: 927px;
+	padding: 5px 15px;
+	float: left;
+}
+#content {
+	width: 592px;
+	float: left;
+	padding: 5px 15px;
+}
+
+#middle {
+	width: 294px; /* Account for margins + border values */
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+}
+
+#sidebar {
+	width: 927px;
+	padding: 5px 15px;
+	float: left;
+}
+
+#anone {
+	width: 927px;
+	padding: 5px 15px;
+	float: left;
+}
+
+
+
+/* search */
+* {
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+form.search input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 40%;
+  float: left;
+  background: white;
+}
+
+
+/*   background-color: #4CAF50; */
+form.search button {
+  float: left;
+  height:42px;
+  width: 10%;
+  padding: 10px;
+  background: #4CAF50;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.search button:hover {
+  background: #4caf53;
+}
+
+
+/* Clear floats */
+form.search::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/* new */
+
+
+h5{ color: black;
+    font-size: 20px;
+    font-weight: blod;
+ }
+a {color: black;
+   text-decoration = none;
+   font-weight: bold;
+}
+ul {color: black;
+     text-decoration = none;
+     font-weight = bold;
+}
+
+#anone {
+        width: 927px;
+        padding: 5px 15px;
+        float: left;
+}
+footer {
+        clear: both;
+        padding: 0 15px;
+        height: 50px;
+}
+
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+/* for 980px or less */
+@media screen and (max-width: 980px) {
+	
+	#pagewrap {
+		width: 94%;
+	}
+	#content {
+		width: 41%;
+		padding: 1% 4%;
+	}
+	#middle {
+		width: 41%;
+		padding: 1% 4%;
+		margin: 0px 0px 5px 5px;
+		float: right;
+	}
+	
+	#sidebar {
+		clear: both;
+		padding: 1% 4%;
+		width: auto;
+		float: none;
+	}
+	
+	#anone {
+	width: 927px;
+	padding: 5px 15px;
+	float: left;
+}
+
+	header, footer {
+		padding: 1% 4%;
+	}
+}
+
+/* for 700px or less */
+@media screen and (max-width: 600px) {
+
+	#content {
+		width: auto;
+		float: none;
+	}
+	
+	#middle {
+		width: auto;
+		float: none;
+		margin-left: 0px;
+	}
+	
+	#sidebar {
+		width: auto;
+		float: none;
+	}
+
+#anone {
+	width: 927px;
+	padding: 5px 15px;
+	float: left;
+ }
+
+}
+
+/* for 480px or less */
+@media screen and (max-width: 480px) {
+
+	header {
+		height: auto;
+	}
+	h1 {
+		font-size: 2em;
+	}
+	#sidebar {
+		width: auto;
+		float: none;
+	}
+
+#anone {
+	width: auto;
+	float: none;
+ }
+
+}
+
+
+
+
+#content {
+	background: white;
+}
+#sidebar {
+	background: white;
+}
+#anone {
+	background: white;
+}
+header, #content, #middle, #sidebar, #anone {
+	margin-bottom: 5px;
+}
+
+#pagewrap, header, #content, #middle, #sidebar, #anone, footer {
+	border: solid 0px #ccc;
+}

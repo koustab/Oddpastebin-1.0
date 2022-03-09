@@ -1,0 +1,284 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body { 
+  font-family: 'Open Sans', sans-serif;
+  color: #666;
+}
+
+/* STRUCTURE */
+
+#pagewrap {
+	padding: 5px;
+	width: 1160px;
+	 margin: 20px auto; 
+        margin-top: 0px;
+}
+header {
+	height: 30px;
+	padding: 0 15px;
+}
+#tittle {
+	width: 927px;
+	padding: 5px 15px;
+	float: left;
+}
+
+
+#sidebar {
+	width: 1120px;
+        height: 490px;
+	padding: 5px 15px;
+	float: left;
+}
+
+footer {
+	clear: both;
+	padding: 0 15px;
+        height: 50px;
+}
+
+/*new add */
+textarea {
+  background: url(http://i.imgur.com/2cOaJ.png);
+  background-attachment: local;
+  background-repeat: no-repeat;
+  margin-top: 7px;
+  margin-left: -10px;
+  padding-left: 35px;
+  padding-top: 10px;
+  border-color: 2px, #ccc; 
+  height: 27.5em;
+  width: 82.5em;
+}
+input[type=text] {
+  height: 31px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  height: 42px;
+  color: white;
+  padding: 15px 32px;
+  float: right;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-right: -8px;
+  margin-top: 5px;
+}
+
+input[type=submita] {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  height: 2px;
+  width: 55px;
+  color: white;
+   padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin-right: 15px;
+}
+
+h5{ color: black;
+    font-size: 20px;
+    font-weight: blod;
+ }
+a {color: black;
+   text-decoration = none; 
+   font-weight: bold;	
+}
+ul {color: black;
+     text-decoration = none;
+     font-weight = bold;
+}
+
+header nav {
+ float: right;
+ margin-top: -10px;
+ color: black;
+}
+	
+header nav li {
+ display: inline;
+ margin-left: 15px;
+ color: black;
+}
+
+
+
+
+
+footer {
+  margin-top: 120px;
+  text-align: center;
+}
+
+.copyleft {
+  display:inline-block;
+  transform: rotate(180deg);
+}
+
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+/* for 980px or less */
+@media screen and (max-width: 1224px) {
+	
+	#pagewrap {
+		width: 94%;
+	}
+	#content {
+		width: 41%;
+		padding: 1% 4%;
+	}
+	#middle {
+		width: 41%;
+		padding: 1% 4%;
+		margin: 0px 0px 5px 5px;
+		float: right;
+	}
+	
+	#sidebar {
+		clear: both;
+		padding: 1% 4%;
+		width: auto;
+		float: none;
+	}
+	
+	#anone {
+	width: 927px;
+	padding: 5px 15px;
+	float: left;
+}
+
+	header, footer {
+		padding: 1% 4%;
+	}
+textarea {
+  background: url(http://i.imgur.com/2cOaJ.png);
+  background-attachment: local;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  margin-left: -10px;
+  padding-left: 35px;
+  padding-top: 10px;
+  border-color: 2px, #ccc;
+  width : 100%;
+}
+
+}
+
+/* for 700px or less */
+@media screen and (max-width: 600px) {
+
+	#content {
+		width: auto;
+		float: none;
+	}
+	
+	#middle {
+		width: auto;
+		float: none;
+		margin-left: 0px;
+	}
+	
+	#sidebar {
+		width: auto;
+		float: none;
+	}
+
+#anone {
+	width: 927px;
+	padding: 5px 15px;
+	float: left;
+ }
+
+textarea {
+  background: url(http://i.imgur.com/2cOaJ.png);
+  background-attachment: local;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  margin-left: -10px;
+  padding-left: 35px;
+  padding-top: 10px;
+  border-color: 2px, #ccc;
+  width : 100%;
+}
+
+}
+
+/* for 480px or less */
+@media screen and (max-width: 480px) {
+
+	header {
+		height: auto;
+	}
+	h1 {
+		font-size: 2em;
+	}
+	#sidebar {
+		width: auto;
+		float: none;
+	}
+
+#anone {
+	width: auto;
+	float: none;
+ }
+
+textarea {
+  background: url(http://i.imgur.com/2cOaJ.png);
+  background-attachment: local;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  margin-left: -10px;
+  padding-left: 35px;
+  padding-top: 10px;
+  border-color: 2px, #ccc;
+  width : 100%;
+}
+
+
+	header nav {
+		float: left;
+		clear: left;
+		margin: 0 0 10px;
+		width: 100%;
+		}
+		header nav li {
+			margin: 0;
+			color: black;
+			display: block;
+			margin-bottom: 3px;
+			}
+			header nav a {
+				display: block;
+				padding: 10px;
+				text-align: center;
+				}
+
+}
+
+
+#content {
+	background: #f8f8f8;
+}
+#sidebar {
+	background: white;
+}
+#anone {
+	background: red;
+}
+header, #content, #middle, #sidebar, #anone {
+	margin-bottom: 5px;
+}
+
+#pagewrap, header, #content, #middle, #sidebar, #anone, footer {
+	border: solid 0px #ccc;
+}
