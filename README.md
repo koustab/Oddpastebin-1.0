@@ -14,7 +14,7 @@ Simple Codes Well totally done by a newbie
 Easy to install
 All the files are saved in one folder
 Can delete old file daily/weekly/monthly basis
-Support command line [bit slow[45sec] atm, why! not sure yet. (lol)]
+Support command line [bit slow]
 Example : echo oddpaste | nc paste.ethicalslacker.net 8888
 
-Installation : https://paste.ethicalslaccker.net/code.html
+Installation : https://paste.ethicalslacker.net/code.html
