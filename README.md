@@ -16,3 +16,5 @@ All the files are saved in one folder
 Can delete old file daily/weekly/monthly basis
 Support command line [bit slow[45sec] atm, why! not sure yet. (lol)]
 Example : echo oddpaste | nc paste.ethicalslacker.net 8888
+
+Installation : https://paste.ethicalslaccker.net/code.html
